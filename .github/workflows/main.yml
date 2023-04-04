@@ -12,7 +12,7 @@ jobs:
       - uses: actions/checkout@v2
       - uses: akhileshns/heroku-deploy@v3.12.11
         with:
-          heroku_api_key: ${{48b7dae4-b87d-436e-96f4-27a7ff378bce}}
+          heroku_api_key: ${48b7dae4-b87d-436e-96f4-27a7ff378bce}
           heroku_app_name: "github-cd-2"
           heroku_email: "bautistac_29@outlook.com"
           
